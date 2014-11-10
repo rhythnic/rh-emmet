@@ -1,0 +1,38 @@
+{
+	"css": {
+		"filters": "html",
+		"snippets": {
+                  "divider": "/******************************************\n\t$1\n******************************************/"
+		}
+	},
+	
+	"html": {
+		"filters": "html",
+		"profile": "html",
+		"snippets": {
+                  "comment": "<!-- ${1} -->",
+                  "!": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n\t<title>${1}</title>\n\n</head>\n<body>\n</body>\n</html>",
+                  "meta:vp": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+            }
+	},
+	
+	"scss": {
+		"extends": "css"
+	},
+	
+	"sass": {
+		"extends": "css"
+	},
+	
+	"less": {
+		"extends": "css"
+	},
+	
+	"stylus": {
+		"extends": "css"
+	},
+
+	"styl": {
+		"extends": "stylus"
+	}
+}
